@@ -5,8 +5,11 @@ class Home extends React.Component{
         return ( 
                 <div className="container mt-5  ">
                     <div className="row text-center">
-                        <h1 className="fs-3 fw-bold title">About me</h1>
-                        <div className="heading-line"></div>
+                        <h1 className="fs-3 fw-bold title">About me                  
+                        </h1>
+                        <div className="heading-line">
+                        <img  width="200px" className=" my-5 img " src="./esmaeil.jpg"/>
+                        </div>
                     </div>
                     <div className="row"> 
                     <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -41,7 +44,7 @@ class Home extends React.Component{
                    </div>
                  </div>
                </div>
-                    </div>
+                </div>
                 </div>
         )
     }

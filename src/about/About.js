@@ -8,7 +8,7 @@ class About extends React.Component{
                 <div className="container">
                     <div className="row">  
                         <div className="col-6 mt-5">
-                            <h1 className="title">Portpholio <br/> i <br/> 
+                            <h1 className="title"> <br/> i <br/> 
                             am <br/> 
                             Esmaeil Ahmadzai</h1>
 
@@ -19,8 +19,8 @@ class About extends React.Component{
                                <button type="button" class="btn btn-outline-primary">contect me</button>
                                </div>
                         </div>
-                        <div className="col-6  img">
-                            <img className="wight-120   border-raduos" src="./esmaeil.jpg"/>
+                        <div  className="col-6  img">
+                            <img  width="200px" className="wight-120   border-raduos" src="./esmaeil.jpg"/>
                         </div>
                     </div>
                 </div>

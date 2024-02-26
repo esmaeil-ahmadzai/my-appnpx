@@ -41,23 +41,22 @@ class Contect extends React.Component{
         <div class="row gy-4"  data-aos="fade-up" data-aos-delay="500`">
 
           <div class="col-md-6">
-            <label class="form-labal">Name</label>
-            <input type="text" class="form-control"/>
+            <input placeholder="Name" type="text" class="form-control"/>
           </div>
 
           
           <div class="col-md-6">
-            <label class="form-labal">Email</label>
-            <input type="email" class="form-control"/>
+            <input placeholder="Email" type="email" class="form-control"/>
           </div>
 
           <div class="col-md-12">
-            <label class="form-labal">Subject</label>
-            <input type="text" class="form-control"/>
+            <input placeholder="subject" type="text" class="form-control"/>
           </div>
           <div class="col-md-12">
-            <label class="form-labal">Subject</label>
-            <textarea rows="2" class="form-control" > </textarea>
+            <input placeholder="phone number" type="Number" class="form-control"/>
+          </div>
+          <div class="col-md-12">
+            <textarea placeholder="" rows="2" class="form-control" > </textarea>
           </div>
 
           <div class="col-md-12 text-center">

@@ -16,3 +16,7 @@
 }
 .pricing .card:hover{
 transform: scale(1.1);}
+.card-body{
+    background-color: rgb(211, 240, 240);
+    border-radius: 20px;
+}
