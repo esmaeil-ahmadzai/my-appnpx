@@ -1,6 +1,42 @@
-.title{
+.titl{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    text-align:center;
-    
+    margin-top: 30px;
+    text-align: center; 
 }
+
+
+.counts i {
+    font-size: 42px;
+  }
+  
+  .counts i.blue {
+    color: #4154f1;
+  }
+  
+  .counts i.orange {
+    color: #ee6c20;
+  }
+  
+  .counts i.green {
+    color: #15be56;
+  }
+  
+  .counts i.red {
+    color: #bb0852;
+  }
+  
+  /* Features */
+  .features i {
+    font-size: 44px;
+    color: #4154f1;
+  }
+  
+  .icon{
+    width: 300px;
+    height: 300px;
+  }
+
+
+
+  

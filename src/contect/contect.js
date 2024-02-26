@@ -1,15 +1,19 @@
 import React from "react";
-import './Contect.css'
+import './Contect.css';
 class Contect extends React.Component{
     render() {
         return(
             <div>
-               
+                
 
-<section class=" container-fluid contact py-5 overflow-hidden">
-  <div class="row text-center mb-4"  data-aos="fade-up" data-aos-delay="500`">
+<section class=" container contact py-5 overflow-hidden">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div class="row text-center mb-4  container-fluid"  data-aos="fade-up" data-aos-delay="500`">
   <h2  className="tit">Contect me</h2>  </div>
-  <div class="row gy-3"  data-aos="fade-up" data-aos-delay="500`">
+  <div class="row gy-3  container-fluid"  data-aos="fade-up" data-aos-delay="500`">
     <div class="col-lg-6">
       <div class="row gy-3">
         <div class="col-md-6">
@@ -20,7 +24,7 @@ class Contect extends React.Component{
             Herat City</p>
           </div>
         </div>
-        <div class="col-md-6"  data-aos="fade-up" data-aos-delay="500`"> 
+        <div class="col-md-6 "  data-aos="fade-up" data-aos-delay="500`"> 
           <div class="info-box">
             <i class="bi bi-telephone"></i>
             <h5 class="fw-bold abi"> contect Numbers</h5>
@@ -29,7 +33,9 @@ class Contect extends React.Component{
         </div>
         <div class="col-md-6"  data-aos="fade-up" data-aos-delay="500`">
           <div class="info-box">
-            <i class="bi bi-envelope"></i>
+            <i class="bi bi-envelope">
+  
+            </i>
             <h5 class="fw-bold abi"> Email</h5>
             <p >amirahmadzai0728485594@gmail.com<br/>esmaeilahmadzai01@gmail.com </p>
           </div>
@@ -52,11 +58,9 @@ class Contect extends React.Component{
           <div class="col-md-12">
             <input placeholder="subject" type="text" class="form-control"/>
           </div>
+        
           <div class="col-md-12">
-            <input placeholder="phone number" type="Number" class="form-control"/>
-          </div>
-          <div class="col-md-12">
-            <textarea placeholder="" rows="2" class="form-control" > </textarea>
+            <textarea placeholder="" rows="2" class="form-control textarea" > </textarea>
           </div>
 
           <div class="col-md-12 text-center">
@@ -71,11 +75,6 @@ class Contect extends React.Component{
 
 
 </section>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <br/>
                 <br/>
                 <br/>

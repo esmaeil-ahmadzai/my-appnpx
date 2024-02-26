@@ -12,3 +12,6 @@
 .form-control{
     background-color:  rgb(211, 240, 240);
 }
+.textarea{
+    height: 140px;
+}

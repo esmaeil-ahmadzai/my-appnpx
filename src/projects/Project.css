@@ -13,10 +13,30 @@
 .pricing .card{
     transition:all 0.3s;
     margin: 10px;
+    
 }
 .pricing .card:hover{
-transform: scale(1.1);}
-.card-body{
-    background-color: rgb(211, 240, 240);
-    border-radius: 20px;
+transform: scale(1.1);
+    
 }
+
+.card{
+    background: url(./1.jpg);
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+}
+
+.card-body{
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.hhh{
+    height: 90px;
+    width: 90px;
+}
+.hhhh{
+    color: white;
+    text-decoration: none;
+}
+
